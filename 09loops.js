@@ -70,22 +70,23 @@
 
 
 
-let k ={
- abhimat:20,
- kismat:10,
- neon:14
+// let k ={
+//  abhimat:20,
+//  kismat:10,
+//  neon:14
 
-}
-console.log(k ["abhimat"]);
+// }
+// console.log(k ["abhimat"]);
+// console.log(k.abhimat);
 
-for(a in k){
-    console.log("marks of ",a,"are",k[a]);
-}
+// for(a in k){
+//     console.log("marks of ",a,"are",k[a]);
+// }
 
 
-for(a of "abhimat"){
-    console.log(a);
-}
+// for(a of "abhimat"){
+//     console.log(a);
+// }
 
 
 
@@ -93,3 +94,13 @@ for(a of "abhimat"){
 //for of loop
 
 
+
+
+const car = {
+    name:"ferrari",
+    price:"$200",
+    locaton:"Pokhara"
+}
+ for (z of "car"){
+    console.log(z["car"]);
+ }
